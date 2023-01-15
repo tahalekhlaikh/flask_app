@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="{{url_for('static', filename='script.js')}}">
+</script>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <meta charset="UTF-8">
+    <title>Flask Docker</title>
+</head>
+<body>
+    <h1>This is a Flask App containerised with Docker</h1>
+<button onclick="getElementById('demo').innerHTML=f()">What is the time?</button>
+<p id="demo"></p>
+<iframe src="https://www.leparisien.fr/" width="900" height="800"></iframe>
+<iframe src="https://www.lefigaro.fr/" width="900" height="800"></iframe>
+</body>
+</html>a
